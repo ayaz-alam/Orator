@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1033384096237",
+    "firebase_url": "https://orator-5ebc4.firebaseio.com",
+    "project_id": "orator-5ebc4",
+    "storage_bucket": "orator-5ebc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033384096237:android:8c5570e99955dfc7",
+        "android_client_info": {
+          "package_name": "com.medeveloper.ayaz.orator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033384096237-jrlk9btau3932u0nqdb1j7f598gkj3j6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.medeveloper.ayaz.orator",
+            "certificate_hash": "edc450a8e88f7e62bef00ccbd053ab03ac2ff97b"
+          }
+        },
+        {
+          "client_id": "1033384096237-i98r2nnelitetvsi0facos64ush54alv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBleH6iJ0n3tn5bCGz4oD173ceCcYkBYKo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033384096237-i98r2nnelitetvsi0facos64ush54alv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

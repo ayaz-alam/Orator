@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Orator Club</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_base">Orator Club</string>
+    <string name="fragment_name_filler">Filler Word Captain</string>
+    <string name="fragment_name_grammarian">Grammarian</string>
+    <string name="fragment_name_questioner">Questioner</string>
+    <string name="fragment_name_sessions">Choose Session</string>
+    <string name="fragment_name_report">Progress Report</string>
+    <string name="fragment_name_timer">Timer Captain</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="setter_activity">Set Session</string>
+</resources>

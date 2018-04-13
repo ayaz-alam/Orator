@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#80d4be</color>
+    <color name="colorPrimaryDark">#4fa28e</color>
+    <color name="colorPrimaryLight">#1c8c6e</color>
+    <color name="colorAccent">#58d25e</color>
+    <color name="white">#FFFFFF</color>
+    <color name="toolbar_back">#6ba1ab</color>
+    <color name="block1_back">#80d4be</color>
+    <color name="list_1">#e0f7fa</color>
+    <color name="list_2">#cfd8dc</color>
+    <color name="error_red">#ccff3502</color>
+    <color name="grey">#565555</color>
+</resources>

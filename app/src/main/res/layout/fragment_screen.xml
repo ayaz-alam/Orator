@@ -1,0 +1,162 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+
+    >
+
+    <FrameLayout
+        android:id="@+id/your_placeholder_screen"
+        android:layout_width="match_parent"
+        android:layout_marginTop="24dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="24dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/name_screen"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:text="Value"
+                    android:layout_marginRight="40dp"
+                    />
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Filler Word Details"
+                    android:layout_marginLeft="24dp"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/list_head"
+                    android:layout_centerInParent="true"
+                    />
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Filler words used"
+                    android:layout_marginLeft="24dp"
+                    android:textSize="@dimen/list_item_size"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/fillers_screen"
+                    android:text="Value"
+                    android:layout_marginRight="40dp"
+                    android:textSize="@dimen/list_item_size"
+                    />
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Long Pauses"
+                    android:layout_marginLeft="24dp"
+                    android:textSize="@dimen/list_item_size"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/long_screen"
+                    android:text="Value"
+                    android:layout_marginRight="40dp"
+                    android:textSize="@dimen/list_item_size"
+                    />
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sentence breaks"
+                    android:layout_marginLeft="24dp"
+                    android:textSize="@dimen/list_item_size"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/sentence_screen"
+                    android:text="Value"
+                    android:layout_marginRight="40dp"
+                    android:textSize="@dimen/list_item_size"
+                    />
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Grammar Mistake"
+                    android:layout_marginLeft="24dp"
+                    android:layout_centerInParent="true"
+                    android:textSize="@dimen/list_head"
+                    android:textStyle="bold"
+                    />
+
+
+            </RelativeLayout>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_marginLeft="24dp"
+                android:padding="2dp"
+                android:layout_marginRight="40dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/my_scroll_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" />
+            </ScrollView>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_white_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_filler_cap"
+            android:icon="@drawable/ic_fillers"
+            android:title="@string/fragment_name_filler" />
+        <item
+            android:id="@+id/nav_grammarian"
+            android:icon="@drawable/ic_library_books_white_24dp"
+            android:title="@string/fragment_name_grammarian" />
+        <item
+            android:id="@+id/nav_questioner"
+            android:icon="@drawable/ic_question_answer_white_24dp"
+            android:title="@string/fragment_name_questioner" />
+
+    </group>
+
+    <item android:title="Other">
+        <menu>
+
+            <item
+                android:id="@+id/nav_see_report"
+                android:icon="@drawable/ic_face_white_24dp"
+                android:title="See Your Progress"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_power_settings_new_white_24dp"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>

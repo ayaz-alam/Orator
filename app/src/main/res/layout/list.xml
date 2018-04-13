@@ -1,0 +1,50 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical"
+
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:padding="4dp"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Session Date"
+        android:textAlignment="center"
+        android:textSize="16dp"
+      />
+
+    <TextView
+        android:id="@+id/session_date"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Session"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+
+        app:layout_constraintBottom_toBottomOf="@id/textView"
+
+        />
+    </LinearLayout>
+
+</LinearLayout>

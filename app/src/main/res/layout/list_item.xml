@@ -1,0 +1,19 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/round_"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_marginTop="8dp"
+        android:id="@+id/name"/>
+    </RelativeLayout>
+
+</RelativeLayout>

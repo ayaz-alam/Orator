@@ -1,0 +1,215 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    >
+    <FrameLayout
+        android:id="@+id/your_placeholder_filler_word"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:padding="8dp"
+                android:id="@+id/select_member"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="28dp"
+                    android:text="Click to Select Members"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:id="@+id/member_select_text"
+                    />
+
+
+            </LinearLayout>
+
+
+            <Chronometer
+                android:id="@+id/chronometer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/select_member"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_centerInParent="true"
+                android:textSize="60sp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/submit"
+                android:background="@drawable/trans_white_rectangle"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal"
+                android:id="@+id/linearLayout2">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="2dp"
+                    android:id="@+id/long_pause_container"
+                    >
+                    <RelativeLayout
+
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:elevation="2dp"
+                        android:background="@drawable/circle"
+                        android:layout_toRightOf="@+id/filler_container">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="40dp"
+                            android:inputType="number"
+                            android:textAlignment="center"
+                            android:layout_centerInParent="true"
+                            android:id="@+id/long_pause_count"
+                            android:layout_centerVertical="true"
+                            android:textColor="@color/white"
+
+                            />
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textSize="16dp"
+                        android:text="Long Pause"
+
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="2dp"
+
+                    android:id="@+id/filler_word_container"
+                    >
+                    <RelativeLayout
+
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:elevation="4dp"
+                        android:id="@+id/filler"
+                        android:background="@drawable/circle"
+                        android:layout_toRightOf="@+id/filler_container">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="40dp"
+                            android:inputType="number"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:layout_centerInParent="true"
+                            android:id="@+id/filler_word_count"
+                            android:layout_centerVertical="true"
+
+                            />
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textSize="16dp"
+                        android:text="Filler Word"
+
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="4dp"
+                    android:id="@+id/sentence_container"
+                    >
+                    <RelativeLayout
+
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:elevation="4dp"
+                        android:background="@drawable/circle"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="40dp"
+                            android:inputType="number"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:layout_centerInParent="true"
+                            android:id="@+id/sentence_break_count"
+                            android:layout_centerVertical="true"
+
+                            />
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textSize="16dp"
+                        android:text="Sentence Break"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button_tale"
+                android:text="Submit Report"
+                android:layout_alignParentBottom="true"
+                android:id="@+id/submit"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:textSize="20dp"
+                />
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/chronometer"
+                android:max="100"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:id="@+id/reset_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/seekBar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="41dp"
+                android:background="@drawable/round_button_tale"
+
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textStyle="bold"
+                android:elevation="8dp"
+
+                android:text="Reset"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+
+
+        </RelativeLayout>
+    </FrameLayout>
+
+
+
+</RelativeLayout>
